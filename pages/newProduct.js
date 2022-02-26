@@ -3,7 +3,8 @@ import { useState } from "react"
 import BaseURL from "../lib/baseUrl"
 import {Form,Button,Row,Col,InputGroup,} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const newProduct =()=>{
     const [name, setName] = useState("")
